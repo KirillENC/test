@@ -1,15 +1,13 @@
-# TEST API
+# Тестовое задание
 
-### For Start
+### Build
 ```
-python api.py
+docker-compose build
 ```
 
-open localhost:8000/docs for swagger
-
-### Add migration
+### Run
 ```
-yoyo new -m "migration name"
+docker-compose up
 ```
 
 ### Default admin user
